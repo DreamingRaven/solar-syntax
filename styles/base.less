@@ -35,7 +35,7 @@ atom-text-editor {
   .gutter .line-number.folded,
   .gutter .line-number:after,
   .fold-marker:after {
-    color: @light-gray;
+    color: @base01;
   }
 
   .invisible {
@@ -55,14 +55,14 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @light-gray;
+  color: @green;
 }
 
 .syntax--keyword {
-  color: @purple;
+  color: @violet;
 
   &.syntax--control {
-    color: @purple;
+    color: @violet;
   }
 
   &.syntax--operator {
@@ -79,18 +79,18 @@ atom-text-editor {
 }
 
 .syntax--storage {
-  color: @purple;
+  color: @violet;
 }
 
 .syntax--constant {
-  color: @orange;
+  color: @yellow;
 
   &.syntax--character.syntax--escape {
     color: @cyan;
   }
 
   &.syntax--numeric {
-    color: @orange;
+    color: @yellow;
   }
 
   &.syntax--other.syntax--color {
@@ -110,7 +110,7 @@ atom-text-editor {
   }
 
   &.syntax--parameter.syntax--function {
-    color: @syntax-text-color;
+    color: @orange;
   }
 }
 
